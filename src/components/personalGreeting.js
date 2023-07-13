@@ -10,7 +10,7 @@ function personalGreeting() {
 
         <div>
         <label for="name">Enter your name:</label>
-        <input type="text" placeholder="" onChange={myname} value="name"/>
+        <input type="text" placeholder="" onChange={myname} value="name"></input>
         <h1>Hello{name}!</h1>
         </div>
     )
