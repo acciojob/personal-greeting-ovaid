@@ -15,7 +15,7 @@ function Greeting() {
     <div>
           <label>Enter your name:</label><br/>
           <input type="text" value={name} onChange={handleChange} />
-          <h1>{"Hello " + name+"!"}</h1>
+          <p>{"Hello " + name+"!"}</p>
         
      
     </div>
