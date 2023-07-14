@@ -1,13 +1,13 @@
 
 import React from "react";
-import personalGreeting from "./personalGreeting";
+import Greeting from "./Greeting";
 import './../styles/App.css';
 
 const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <personalGreeting/>
+        <Greeting/>
     </div>
   )
 }
